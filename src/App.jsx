@@ -4,7 +4,7 @@ function App() {
   return (
     <>
       <div className="flex flex-col md:flex-row-reverse gap-6">
-        <div className="bg-[#ffffff] text-black w-52 h-48 md:w-full lg:w-full rounded-xl ">
+        <div className="bg-[#ffffff] text-black w-52 h-52 md: w-72 rounded-xl ">
           <h2 className="text-red-900 font-bold text-2xl pt-3 ">
             Your Cart (0)
           </h2>
@@ -17,9 +17,9 @@ function App() {
             {/* card-1 */}
             <div className="p-6 rounded-xl">
               <img
-                src="/src/assets/2148352300.jpg"
+                src="/assets/2148352300.jpg"
                 alt=""
-                className="rounded-2xl relative"
+                className="rounded-2xl w-60"
               />
               <div className="">
                 <button className="text-black border-stone-950 px-6 py-1 text-sm rounded-3xl ">
@@ -38,9 +38,9 @@ function App() {
             <div className="p-6 rounded-xl">
               {" "}
               <img
-                src="/src/assets/2148352300.jpg"
+                src="/assets/2148352300.jpg"
                 alt=""
-                className="rounded-2xl"
+                className="rounded-2xl w-60"
               />
               <div>
                 <button className="bg-white text-black border-stone-950 px-6 py-1 text-sm rounded-3xl">
@@ -59,9 +59,9 @@ function App() {
             <div className="p-6 rounded-xl">
               {" "}
               <img
-                src="/src/assets/2148352300.jpg"
+                src="/assets/2148352300.jpg"
                 alt=""
-                className="rounded-2xl"
+                className="rounded-2xl w-60"
               />
               <div>
                 <button className="bg-white text-black border-stone-950 px-6 py-1 text-sm rounded-3xl">
@@ -79,9 +79,9 @@ function App() {
             {/* card-4 */}
             <div className="p-6 rounded-xl">
               <img
-                src="/src/assets/2148352300.jpg"
+                src="/assets/2148352300.jpg"
                 alt=""
-                className="rounded-2xl"
+                className="rounded-2xl w-60"
               />
               <div>
                 <button className="bg-white text-black border-stone-950 px-6 py-1 text-sm rounded-3xl">
@@ -99,9 +99,9 @@ function App() {
             {/* card-5 */}
             <div className="p-6 rounded-xl">
               <img
-                src="/src/assets/2148352300.jpg"
+                src="/assets/2148352300.jpg"
                 alt=""
-                className="rounded-2xl"
+                className="rounded-2xl w-60"
               />
               <div>
                 <button className="bg-white text-black border-stone-950 px-6 py-1 text-sm rounded-3xl">
@@ -119,9 +119,9 @@ function App() {
             {/* card-6 */}
             <div className="p-6 rounded-xl">
               <img
-                src="/src/assets/2148352300.jpg"
+                src="/assets/2148352300.jpg"
                 alt=""
-                className="rounded-2xl"
+                className="rounded-2xl w-60"
               />
               <div>
                 <button className="bg-white text-black border-stone-950 px-6 py-1 text-sm rounded-3xl">
@@ -139,9 +139,9 @@ function App() {
             {/* card-7 */}
             <div className="p-6 rounded-xl">
               <img
-                src="/src/assets/2148352300.jpg"
+                src="/assets/2148352300.jpg"
                 alt=""
-                className="rounded-2xl"
+                className="rounded-2xl w-60"
               />
               <div>
                 <button className="bg-white text-black border-stone-950 px-6 py-1 text-sm rounded-3xl">
@@ -159,9 +159,9 @@ function App() {
             {/* card-8 */}
             <div className="p-6 rounded-xl">
               <img
-                src="/src/assets/2148352300.jpg"
+                src="/assets/2148352300.jpg"
                 alt=""
-                className="rounded-2xl"
+                className="rounded-2xl w-60"
               />
               <div>
                 <button className="bg-white text-black border-stone-950 px-6 py-1 text-sm rounded-3xl">
@@ -179,9 +179,9 @@ function App() {
             {/* card-9 */}
             <div className="p-6 rounded-xl">
               <img
-                src="/src/assets/2148352300.jpg"
+                src="/assets/2148352300.jpg"
                 alt=""
-                className="rounded-2xl"
+                className="rounded-2xl w-60"
               />
               <div>
                 <button className="bg-white text-black border-stone-950 px-6 py-1 text-sm rounded-3xl">
